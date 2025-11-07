@@ -67,6 +67,50 @@ btnMiau.addEventListener("click", (event) => {
   filtrarPets("type", "cat");
 });
 
+//Tratamento de evento do botão Auau
+const btnAuau = document.getElementById("btnAuau");
+
 btnAuau.addEventListener("click", event => {
     filtrarPets("type", "dog");
+});
+
+//Tratamento de eventos do botão Porte
+const opcoesPorte = document.getElementById("opcoesPorte");
+const btnPorte = document.getElementById("btnPorte")
+const btnP = document.getElementById("btnP");
+const btnM = document.getElementById("btnM");
+const btnG = document.getElementById("btnG");
+
+btnPorte.addEventListener("mouseover", (event) => {
+  opcoesPorte.style.display = "flex";
+  btnP.style.backgroundColor = "#FCF9F3";
+  btnP.style.color = "#452824";
+  btnM.style.backgroundColor = "#FCF9F3";
+  btnM.style.color = "#452824";
+  btnG.style.backgroundColor = "#FCF9F3";
+  btnG.style.color = "#452824";
+});
+
+dropdownPorte.addEventListener("mouseover", (event) => {
+  opcoesPorte.style.display = "flex";
+});
+
+opcoesPorte.addEventListener("mouseleave", (event) => {
+  opcoesPorte.style.display = "none";
+});
+
+// Filtragem dos pets por porte
+btnP.addEventListener("click", (event) => {
+  filtrarPets("size", "p");
+  btnP.style.color = "#e58233";
+});
+
+btnM.addEventListener("click", (event) => {
+  filtrarPets("size", "m");
+  btnM.style.color = "#e58233";
+});
+
+btnG.addEventListener("click", (event) => {
+    filtrarPets("size", "g");
+    btnG.style.color = "#e58233"
 });

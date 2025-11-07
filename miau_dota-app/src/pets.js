@@ -30,7 +30,7 @@ const pets = [
         id: '4',
         image: 'https://i.pinimg.com/736x/36/93/ff/3693ffff489efc5762a336f6f6c76681.jpg',
         name: 'Gorda',
-        age: '3 anos',
+        age: '1 ano',
         sexo: 'femea',
         size: 'm',
         type: 'cat',

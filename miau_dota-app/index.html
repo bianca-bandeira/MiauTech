@@ -28,14 +28,22 @@
     </header>
 
     <div class="filters">
-      <button id="btnPorte">Porte</button>
+      <div class='dropdown' id="dropdownPorte">
+        <button id="btnPorte">Porte</button>
+        <div class='opcoes' id="opcoesPorte">
+          <button class='btnOpcoes' id="btnP">P</button>
+          <button class='btnOpcoes' id="btnM">M</button>
+          <button class='btnOpcoes' id="btnG">G</button>
+        </div>
+      </div>
+
       <button id="btnIdade">Idade</button>
 
-      <div id="dropdownSexo">
+      <div class='dropdown' id="dropdownSexo">
         <button id="btnSexo">Sexo</button>
-        <div id="opcoesSexo">
-          <button id="btnFemea">Fêmea</button>
-          <button id="btnMacho">Macho</button>
+        <div class='opcoes' id="opcoesSexo">
+          <button class='btnOpcoes' id="btnFemea">Fêmea</button>
+          <button class='btnOpcoes' id="btnMacho">Macho</button>
         </div>
       </div>
 
