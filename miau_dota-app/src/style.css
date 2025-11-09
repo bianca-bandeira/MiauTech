@@ -210,62 +210,6 @@ header .options a:hover{
   height: 45px;
 }
 
-
-/* .filters {
-  display: flex;
-  justify-content: left;
-  margin: 30px 0 5px 100px;
-}
-
-.filters button {
-  margin-left: 10px;
-  font-weight: 700;
-  font-size: 1.3rem;
-  background-color: #e58233;
-  color: white;
-  border: none;
-  border-radius: 13px;
-  width: auto;
-  padding: 5px 10px 5px 10px;
-}
-
-.filters .dog-cat button{
-  background-color: #452824;
-  color: white;
-}
-
-.filters button:hover {
-  background-color: #452824;
-  color: white;
-}
-
-.filters .dog-cat button:hover {
-  background-color: #e58233;
-}
-
-.opcoes {
-  display: none;
-  flex-direction: column;
-  text-align: left;
-  width: 100%;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: #FCF9F3;
-  min-width: 100px;
-  padding: 5px px 5px 0;
-  text-align: left;
-}
-
-.dropdown {
-  position: relative;
-  display: block;
-}
-
-.btnOpcoes:hover {
-  color:#e58233 !important;
-} */
-
 /*------------PETS-------------*/
 .pets{
   margin-top: none;

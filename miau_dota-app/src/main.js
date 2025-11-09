@@ -11,7 +11,7 @@ export function createPet(pets) {
     </div>`;
 }
 
-const petcard = document.querySelector(".pets");
+export const petcard = document.querySelector(".pets");
 
 pets.forEach((pets) => {
   let card = createPet(pets);
