@@ -31,6 +31,7 @@ body{
   margin: 0;
   padding: 0;
   cursor: pointer;
+  width: 100%;
 }
 
 /*------------MENU----------*/
@@ -299,6 +300,10 @@ header .options{
   gap: 20px;
 }
 
+header .options a{
+  font-size: 1.0rem;
+}
+
 .pets{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -374,14 +379,14 @@ header .options{
   display: flex;
   flex-direction: column;
   padding: 10px;
-  width: 150px;
-  height: 230px;
-  margin: 50px;  
+  width: 300px;
+  height: 460px;
+  margin: 100px;  
 }
 
 .pets div img{
-  height: 150px;
-  width: 150px;
+  height: 300px;
+  width: 300px;
 }
 
 .pets .name {
@@ -406,7 +411,7 @@ header .options{
 }
 
 #fechar {
-  margin-left: 200px;
+  margin-left: 220px;
 }
 
 }
