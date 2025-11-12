@@ -30,6 +30,7 @@ body{
   font-weight: 400;
   margin: 0;
   padding: 0;
+  cursor: pointer;
 }
 
 /*------------MENU----------*/
@@ -379,8 +380,8 @@ header .options{
 }
 
 .pets div img{
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
 }
 
 .pets .name {
@@ -402,6 +403,10 @@ header .options{
 
 .popup {
   width: 90%;
+}
+
+#fechar {
+  margin-left: 200px;
 }
 
 }
