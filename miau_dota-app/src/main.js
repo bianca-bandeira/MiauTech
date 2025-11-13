@@ -1,5 +1,7 @@
 import "./style.css";
 import pets from "./pets.js";
+import "./filters.js";
+import "./slides.js";
 
 export function createPet(pets) {
   return `
