@@ -3,7 +3,7 @@ import pets from "./pets.js";
 
 export function createPet(pets) {
   return `
-  <a href="details-pet.html?id=${pets.id}">
+  <a href="/Miau-dota/pages/details-pet.html?id=${pets.id}">
     <div>
         <img src="${pets.image}">
         <p class="name">${pets.name}</p>
