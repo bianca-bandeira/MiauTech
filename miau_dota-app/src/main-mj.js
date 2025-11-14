@@ -1,5 +1,5 @@
 import vets from './vets.js';
-import "./style.css";
+import "./style-mj.css";
 
 export function CreatVet(vet){
     return`

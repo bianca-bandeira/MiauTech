@@ -39,7 +39,6 @@ body{
 
 section, div {
   max-width: 100%;
-  /* overflow: hidden; */
 }
 
 /*------------MENU----------*/
@@ -104,7 +103,8 @@ header .options a:hover {
   width: 100%;
   max-width: 1100px;
   height: 400px;
-  margin: 0 auto;
+  margin: auto;
+  margin-top: 2%;
   position: relative;
 }
 
