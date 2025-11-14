@@ -362,6 +362,52 @@ header .options a:hover {
   font-size: 1.5rem;
 }
 
+/*------------DONATION PAGE-------------*/
+
+.pq-doar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 60px;
+  margin-bottom: 120px;
+}
+
+.pq-doar h1 {
+  color: #452824;
+  font-size: 3.2rem;
+}
+
+.pq-doar .imgs-pets {
+  align-items: center;
+  display: flex;
+}
+
+.pq-doar .imgs-pets img {
+  height: 300px;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+.pq-doar .imgs-pets .s-imgs {
+  height: 250px;
+}
+
+.pq-doar p {
+  color: #452824;
+  font-size: 1.8rem;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.pq-doar button {
+  font-size: 2rem;
+  background-color: #452824;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+}
+
 /*-----------FOOTER---------*/
 footer {
   background-color: #eee7d4;
@@ -370,6 +416,7 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 30px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 footer .logo-footer {
