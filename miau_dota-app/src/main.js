@@ -2,18 +2,17 @@ import "./style.css";
 import pets from "./pets.js";
 import "./filters.js";
 import "./slides.js";
+import pata1 from "./imgs/miaudota/pata1.png"
 
 export function createPet(pets) {
   return `
     <div>
-      <a class="link-pets", href="/Miau-dota/pages/details-pet.html?id=${pets.id}">
-          <img src="${pets.image}">
-          <p class="name">${pets.name}</p>
-          <p class="infos-pet">${pets.age} | ${pets.sexo}</p>
-          <img src="./src/imgs/miaudota/pata1.png" alt="pata1" class="pata1">
-      </a>
-    </div>` 
-  ;
+        <img src="${pets.image}">
+        <p class="name">${pets.name}</p>
+        <p class="infos-pet">${pets.age} | ${pets.sexo}</p>
+        <img src="${pata1}" alt="pata1" class="pata1">
+    </div> 
+  </a>`;
 }
 
 export const petcard = document.querySelector(".pets");
