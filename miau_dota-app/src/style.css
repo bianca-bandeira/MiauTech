@@ -302,7 +302,7 @@ header .options a:hover {
   place-items: center;
 }
 
-.pets div {
+.pets div, .vets div {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -316,33 +316,43 @@ header .options a:hover {
   font-family: fredoka;
 }
 
-.pets div img {
+.pets div img, .vets div img {
   width: 100%;
   aspect-ratio: 1/1;
   object-fit: cover;
   object-position: center;
 }
 
-.pets a {
+.pets a, .vets a {
   text-decoration: none;
+  height: 100%;
 }
 
-.pets .name {
+.pets .name, .vets .name {
   font-size: 1.5rem;
   font-weight: 500;
   margin-bottom: 0px;
+  text-decoration: none;
+  color: #452824;
+  text-align: center;
+}
+
+.vets .specialty, .location{
+  margin: 0px;
 }
 
 .pets .infos-pet {
   margin-top: 0px;
   font-size: 1.3rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .pets .pata1 {
   width: 75px;
   position: relative;
-  bottom: 20%;
-  left: 50%;
+  bottom: 22%;
+  left: 86%;
   transform: rotate(350deg);
   transform: translateY(20%);
 }
@@ -407,6 +417,52 @@ header .options a:hover {
 
 .infos-pet .dados-pet #pet-desc {
   font-size: 1.5rem;
+}
+
+/*------------DONATION PAGE-------------*/
+
+.pq-doar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 60px;
+  margin-bottom: 120px;
+}
+
+.pq-doar h1 {
+  color: #452824;
+  font-size: 3.2rem;
+}
+
+.pq-doar .imgs-pets {
+  align-items: center;
+  display: flex;
+}
+
+.pq-doar .imgs-pets img {
+  height: 300px;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+.pq-doar .imgs-pets .s-imgs {
+  height: 250px;
+}
+
+.pq-doar p {
+  color: #452824;
+  font-size: 1.8rem;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.pq-doar button {
+  font-size: 2rem;
+  background-color: #452824;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
 }
 
 /*-----------FOOTER---------*/
